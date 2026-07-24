@@ -1,8 +1,26 @@
 aid: carwale
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/carwale.png
 name: CarWale
-description: 'CarWale is a company surfaced as a portfolio company of sierra-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: marketplace. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'CarWale is an Indian automotive marketplace and part of CarTrade Tech
+  Limited, connecting car buyers with new-car dealers and used-car sellers across
+  1,500+ cities in India. The consumer platform offers new and used vehicle listings,
+  accurate on-road pricing sourced directly from dealers, car valuation and sell-car
+  tools, side-by-side comparisons, expert reviews and first-drive reports, and automotive
+  news and video content. CarWale reports over 34 million monthly unique visitors
+  and operates alongside sister brands including BikeWale, CarTrade, CarWale abSure,
+  Mobility Outlook, and Adroit Auto. CarWale does not currently publish a public developer
+  portal or API; this profile captures its public identity and domain-security posture.'
 url: https://raw.githubusercontent.com/api-evangelist/carwale/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Marketplace
+- Automotive
+- Cars
+- India
+- Used Cars
+- New Cars
+- Ecommerce
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://carwale.com/
+  url: https://www.carwale.com/
+- type: Blog
+  url: https://www.carwale.com/news/
+- type: PrivacyPolicy
+  url: https://www.carwale.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.carwale.com/visitor-agreement/
+- type: DomainSecurity
+  url: security/carwale-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
